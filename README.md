@@ -75,6 +75,8 @@ Portfolio page combining **Media Queries** and **Bootstrap Grid**.
    - **Right (`col-lg-4`)** — Sidebar with avatar, name, contact info, and skills badges.
 3. **Footer** — full-width dark footer across the bottom.
 
+- **Bootstrap grid:** `col-lg-8` (projects) + `col-lg-4` (sidebar), cards use `col-md-6`
+- **Media queries:** custom breakpoints at 768px / 1024px for font sizes, sidebar, footer, and card hover
 **How the layout works:**
 
 ```
@@ -92,6 +94,7 @@ Screenshot:
 <img width="740" height="782" alt="image" src="https://github.com/user-attachments/assets/c3c37ce3-006e-4ae4-a472-e82478c7d2ac" />
 <img width="740" height="759" alt="image" src="https://github.com/user-attachments/assets/7c97a764-8a38-427b-8903-1c4ae7194865" />
 <img width="807" height="144" alt="image" src="https://github.com/user-attachments/assets/fcfaa050-403e-434c-ac23-95fe5ac94953" />
+<img width="552" height="594" alt="image" src="https://github.com/user-attachments/assets/10992aa3-94e8-43fa-90d8-91be56d370ef" />
 
 ## Summary
 In this assignment I learned how to build responsive web pages using CSS media queries
