@@ -37,14 +37,31 @@ Screenshot:
 
 ### Part 2 — Bootstrap Grid System
 #### Task 2 — Bootstrap Responsive Columns
+**Description:**
+Build a responsive layout using **Bootstrap's 12-column grid**:
+
+- **Mobile:** `col-12` wins → each column is full width.
+- **Tablet (≥ 768px):** `col-md-6` overrides → 2 columns per row.
+- **Desktop (≥ 992px):** `col-lg-4` overrides → 3 equal columns (12 ÷ 4 = 3).
+
+Bootstrap automatically handles the wrapping, spacing (`gutter`), and
+stacking — no custom media queries needed.
 Screenshot:
-![Task 2](screenshots/task2.png)
+<img width="705" height="509" alt="image" src="https://github.com/user-attachments/assets/f93267a2-104b-4785-9927-032a94fa2686" />
+
 
 #### Task 3 — Bootstrap Navigation Bar
 Screenshot:
-![Task 3](screenshots/task3.png)
+<img width="695" height="517" alt="image" src="https://github.com/user-attachments/assets/8bb752be-b505-4741-bbc4-c6e54fb0f625" />
 
 ### Part 3 — Combined Project
+**Description:** 
+Created a **responsive navbar** with Bootstrap:
+- Logo on the left (`.navbar-brand`)
+- Links on the right (`.ms-auto` → Home / About / Services / Contact)
+- Collapses into a **hamburger menu** on screens < 992px
+- Uses Bootstrap JS bundle for the collapse toggle behavior
+  
 #### Task 4 — Responsive Portfolio Page
 Screenshot:
 ![Task 4](screenshots/task4.png)
