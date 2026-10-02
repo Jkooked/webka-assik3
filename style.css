@@ -26,14 +26,19 @@ p  { font-size: 12px; }
     font-weight: bold;
 }
 
+.sidebar {
+    font-size: 14px;
+}
+
 @media (min-width: 768px) {
     h1 { font-size: 32px; }
     h2 { font-size: 24px; }
     p  { font-size: 16px; }
 
-    .box {
-        flex: 1 1 calc(50% - 10px);
-    }
+    .box { flex: 1 1 calc(50% - 10px); }
+    .card-title { font-size: 18px; }
+    .sidebar { font-size: 16px; }
+    footer { font-size: 14px; }
 }
 
 @media (min-width: 1024px) {
@@ -41,7 +46,15 @@ p  { font-size: 12px; }
     h2 { font-size: 36px; }
     p  { font-size: 24px; }
 
-    .box {
-        flex: 1 1 calc(33.333% - 14px);
+    .box { flex: 1 1 calc(33.333% - 14px); }
+    .card-title { font-size: 20px; }
+    .sidebar { font-size: 17px; }
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(133, 11, 11, 0.609);
+    }
+    footer { font-size: 16px; }
 }
