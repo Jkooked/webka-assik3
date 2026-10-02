@@ -51,20 +51,47 @@ Screenshot:
 
 
 #### Task 3 — Bootstrap Navigation Bar
-Screenshot:
-<img width="695" height="517" alt="image" src="https://github.com/user-attachments/assets/8bb752be-b505-4741-bbc4-c6e54fb0f625" />
-
-### Part 3 — Combined Project
 **Description:** 
 Created a **responsive navbar** with Bootstrap:
 - Logo on the left (`.navbar-brand`)
 - Links on the right (`.ms-auto` → Home / About / Services / Contact)
 - Collapses into a **hamburger menu** on screens < 992px
 - Uses Bootstrap JS bundle for the collapse toggle behavior
-  
-#### Task 4 — Responsive Portfolio Page
+
 Screenshot:
-![Task 4](screenshots/task4.png)
+<img width="695" height="517" alt="image" src="https://github.com/user-attachments/assets/8bb752be-b505-4741-bbc4-c6e54fb0f625" />
+
+### Part 3 — Combined Project
+
+#### Task 4 — Responsive Portfolio Page
+**Description:** 
+Portfolio page combining **Media Queries** and **Bootstrap Grid**.
+
+**Structure:**
+1. **Header** — Bootstrap navbar (logo + links + hamburger)
+2. **Main section** divided into two parts:
+   - **Left (`col-lg-8`)** — Projects arranged in a nested grid of cards
+     (`col-12 col-md-6` → 2 cards per row on desktop/tablet).
+   - **Right (`col-lg-4`)** — Sidebar with avatar, name, contact info, and skills badges.
+3. **Footer** — full-width dark footer across the bottom.
+
+**How the layout works:**
+
+```
+Container
+└── Row (12 columns)
+    ├── col-lg-8   → Projects (nested row with cards)
+    └── col-lg-4   → Sidebar
+```
+
+- **Desktop (≥ 992px):** `8 + 4 = 12` → projects left, sidebar right 
+- **Tablet (≥ 768px):** cards in 2 columns, sidebar moves below (full width)
+- **Mobile:** everything stacked in one column
+
+Screenshot:
+<img width="740" height="782" alt="image" src="https://github.com/user-attachments/assets/c3c37ce3-006e-4ae4-a472-e82478c7d2ac" />
+<img width="740" height="759" alt="image" src="https://github.com/user-attachments/assets/7c97a764-8a38-427b-8903-1c4ae7194865" />
+<img width="807" height="144" alt="image" src="https://github.com/user-attachments/assets/fcfaa050-403e-434c-ac23-95fe5ac94953" />
 
 ## Summary
 In this assignment I learned how to build responsive web pages using CSS media queries
