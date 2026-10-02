@@ -102,9 +102,4 @@ and the Bootstrap 12-column grid. I created separate example files for each task
 combined everything into a portfolio page. The main challenges were managing breakpoints
 consistently and making the navbar collapse correctly on small screens.
 
-## Resources Used
-- Bootstrap 5.3 documentation
-- W3Schools — CSS Media Queries
-- MDN — Responsive Design
-
-# https://jkooked.github.io/webka-assik3/
+# https://jkooked.github.io/webka-assik3/ 
